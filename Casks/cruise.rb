@@ -15,12 +15,12 @@ User Interface) for interacting with Docker"
     on_intel do
       url "https://github.com/NucleoFusion/cruise/releases/download/v1.0.0-rc.1/cruise_Darwin_x86_64.tar.gz",
         verified: "github.com/NucleoFusion/cruise"
-      sha256 "b57e11a94384ed6f0b64b5731a7b9419aae29cfe9da387f813a3c172d1a63f8e"
+      sha256 "1081553675954f8e61165a1bc6d8f33a02e1ea2906115a454c20751f5ff5b894"
     end
     on_arm do
       url "https://github.com/NucleoFusion/cruise/releases/download/v1.0.0-rc.1/cruise_Darwin_arm64.tar.gz",
         verified: "github.com/NucleoFusion/cruise"
-      sha256 "58b391247359a4f7bbebb7b9e324e174d39357348615d66c028781cffc7c349f"
+      sha256 "5266c3c8d4b6f2f5df3e777d29a0abd725a75b2f67f9f702e629461b784bfd52"
     end
   end
 
@@ -28,12 +28,12 @@ User Interface) for interacting with Docker"
     on_intel do
       url "https://github.com/NucleoFusion/cruise/releases/download/v1.0.0-rc.1/cruise_Linux_x86_64.tar.gz",
         verified: "github.com/NucleoFusion/cruise"
-      sha256 "65455b3f88894e75d51d0d110c4805b8a4d151abd05d3933094fc96b1dab3636"
+      sha256 "81aa14fcd0a57b6121aa2cc526bc1966fdc627605adf6643ecabe22128edf5a6"
     end
     on_arm do
       url "https://github.com/NucleoFusion/cruise/releases/download/v1.0.0-rc.1/cruise_Linux_arm64.tar.gz",
         verified: "github.com/NucleoFusion/cruise"
-      sha256 "ae4eb27eaa17c81bd5f30283077e1402e3a459c04f417d7f682e313d2650e44e"
+      sha256 "39922646369f39c2f6b4dbfb29e7f6d66b2526c7f76c8cf32ec4c0d669c4f37b"
     end
   end
 
