@@ -3,7 +3,7 @@ cask "cruise" do
   desc "Cruise is a powerful, intuitive, and fully-featured TUI (Terminal
 User Interface) for interacting with Docker"
   homepage "https://nucleofusion.github.io/cruise/"
-  version "1.0.0-rc.1"
+  version "1.0.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -13,27 +13,27 @@ User Interface) for interacting with Docker"
 
   on_macos do
     on_intel do
-      url "https://github.com/NucleoFusion/cruise/releases/download/v1.0.0-rc.1/cruise_Darwin_x86_64.tar.gz",
+      url "https://github.com/NucleoFusion/cruise/releases/download/v1.0.0/cruise_Darwin_x86_64.tar.gz",
         verified: "github.com/NucleoFusion/cruise"
-      sha256 "b83b5f0dbd7a9ddc7f387a270e0f9fc63693bd7028b0e2b1028b4e1b67b02c91"
+      sha256 "987b893fcc2160303eb8397d95f09f619b52bee5119101b8681e6a3972e9d6e3"
     end
     on_arm do
-      url "https://github.com/NucleoFusion/cruise/releases/download/v1.0.0-rc.1/cruise_Darwin_arm64.tar.gz",
+      url "https://github.com/NucleoFusion/cruise/releases/download/v1.0.0/cruise_Darwin_arm64.tar.gz",
         verified: "github.com/NucleoFusion/cruise"
-      sha256 "c8edeb87b7b3af1514a5cb99eb506b11fc8f9de689e48dad32e0ca86bd15a780"
+      sha256 "cc453532be7e586d63bc5fed3f3b00ad8df058d331df7ded1b567972b379a81e"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/NucleoFusion/cruise/releases/download/v1.0.0-rc.1/cruise_Linux_x86_64.tar.gz",
+      url "https://github.com/NucleoFusion/cruise/releases/download/v1.0.0/cruise_Linux_x86_64.tar.gz",
         verified: "github.com/NucleoFusion/cruise"
-      sha256 "9b561331687814d1ea661ab213658c7f7642c7f28a476f5b96bf2f16e0c6c436"
+      sha256 "90294e4ca75c9ad0fab3998795ee8057be78c7a8288753a8d8f819783ca0f3ad"
     end
     on_arm do
-      url "https://github.com/NucleoFusion/cruise/releases/download/v1.0.0-rc.1/cruise_Linux_arm64.tar.gz",
+      url "https://github.com/NucleoFusion/cruise/releases/download/v1.0.0/cruise_Linux_arm64.tar.gz",
         verified: "github.com/NucleoFusion/cruise"
-      sha256 "6c284b87452d3b8060abb19fad4416b63e9540c3535aed625d7f509df89045b4"
+      sha256 "2ea320cbe61cbd3a47e686115d385694bff02cd06c29fe2af718e8ea8bdfad6d"
     end
   end
 
