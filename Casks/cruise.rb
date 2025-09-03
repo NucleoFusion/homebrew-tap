@@ -3,7 +3,7 @@ cask "cruise" do
   desc "Cruise is a powerful, intuitive, and fully-featured TUI (Terminal
 User Interface) for interacting with Docker"
   homepage "https://nucleofusion.github.io/cruise/"
-  version "1.0.0"
+  version "1.0.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -13,27 +13,27 @@ User Interface) for interacting with Docker"
 
   on_macos do
     on_intel do
-      url "https://github.com/NucleoFusion/cruise/releases/download/v1.0.0/cruise_Darwin_x86_64.tar.gz",
+      url "https://github.com/NucleoFusion/cruise/releases/download/v1.0.1/cruise_Darwin_x86_64.tar.gz",
         verified: "github.com/NucleoFusion/cruise"
-      sha256 "987b893fcc2160303eb8397d95f09f619b52bee5119101b8681e6a3972e9d6e3"
+      sha256 "2ac2b0e962ce663c51323cd7539bee1d6bced0ff47be788058a0f404e83cfe8f"
     end
     on_arm do
-      url "https://github.com/NucleoFusion/cruise/releases/download/v1.0.0/cruise_Darwin_arm64.tar.gz",
+      url "https://github.com/NucleoFusion/cruise/releases/download/v1.0.1/cruise_Darwin_arm64.tar.gz",
         verified: "github.com/NucleoFusion/cruise"
-      sha256 "cc453532be7e586d63bc5fed3f3b00ad8df058d331df7ded1b567972b379a81e"
+      sha256 "0c88cc03b124fc0d4c3f3901ab0d03ea98661bb1e09347e40635935db8739cd9"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/NucleoFusion/cruise/releases/download/v1.0.0/cruise_Linux_x86_64.tar.gz",
+      url "https://github.com/NucleoFusion/cruise/releases/download/v1.0.1/cruise_Linux_x86_64.tar.gz",
         verified: "github.com/NucleoFusion/cruise"
-      sha256 "90294e4ca75c9ad0fab3998795ee8057be78c7a8288753a8d8f819783ca0f3ad"
+      sha256 "beeefd0d3d041cc40faf25ea604ee0894971d4ee4d1b9fb37e2542bd5837a56e"
     end
     on_arm do
-      url "https://github.com/NucleoFusion/cruise/releases/download/v1.0.0/cruise_Linux_arm64.tar.gz",
+      url "https://github.com/NucleoFusion/cruise/releases/download/v1.0.1/cruise_Linux_arm64.tar.gz",
         verified: "github.com/NucleoFusion/cruise"
-      sha256 "2ea320cbe61cbd3a47e686115d385694bff02cd06c29fe2af718e8ea8bdfad6d"
+      sha256 "9b6084922c2bb28f4a7f2b95a9bcce39ad9071542ae39a2f562597e7cb46f925"
     end
   end
 
